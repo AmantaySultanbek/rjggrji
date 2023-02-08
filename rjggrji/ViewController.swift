@@ -11,7 +11,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        changeBGcolor()    }
+        changeBGcolor()
+        creatnewsomething()
+    }
 
     func changeBGcolor() {
         view.backgroundColor = .red
