@@ -15,6 +15,12 @@ class ViewController: UIViewController {
 
     func changeBGcolor() {
         view.backgroundColor = .red
+        view.tintColor = .yellow
+    }
+    
+    func creatnewsomething() {
+        let something = UIView()
+        view.addSubview(something)
     }
 }
 
